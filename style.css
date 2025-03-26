@@ -1,0 +1,177 @@
+body{
+    width: auto;;
+}
+header{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.nav_links{
+    list-style-type: none;
+    color: rgb(21, 102, 173);
+    font-size: 1em;   
+}
+h1{
+    animation: change 4s infinite;
+    -webkit-animation: change 2s infinite;
+}
+h1:hover{
+    color: rgb(21, 102, 173);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav_links a{
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: start;
+}
+.nav_links a:hover{
+    color: rgb(21, 102, 173);
+    margin: 1em;
+}
+.nav_links li{
+    display: inline;
+    margin: 1em;
+}
+@keyframes change{
+    0%{
+        color: white;
+    }
+    25%{
+        color: rgb(21, 102, 173);
+    }
+    50%{
+        color: rgb(38, 186, 12);
+    }
+    75%{
+        color: greenyellow;
+    }
+    100%{
+        color: white;
+    }
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.image img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white(255,255,255,0.684);
+    transition: all ease-in-out 0.5s;
+}s
+.image img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.contact{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: rgb(21, 102, 173);
+    padding: 1em;
+  
+}
+#explain{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5;
+    padding: 1px;
+    border: solid greenyellow;
+    box-sizing: content-box;
+    border-style: groove;
+    color: white;
+}
+body{
+    background-color:rgb(33, 32, 32);
+}
+.fa-brands{
+    font-size: 4.5em;
+    margin: auto;
+}
+.fa-brands:hover{
+    color: rgb(249, 251, 252);
+}
+.contact form {
+    display: grid;
+    gap: 1rem;
+}
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact button {
+    padding: 0.8rem;
+    background: #32cd32;
+    ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact button:hover {
+    background: #0097a7;
+    transition: 0.45s;
+}
+.CV{
+    border: solid greenyellow;
+    font-size: 3.5em;
+}
+.image:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+h3{
+    color:beige;
+    animation: changeIt 1s infinite;
+    -webkit-animation: changeIt 1s infinite;
+}
+@keyframes changeIt{
+    0%{
+        color: white;
+    }
+    25%{
+        color: rgb(21, 102, 173);
+    }
+    50%{
+        color: rgb(38, 186, 12);
+    }
+    75%{
+        color: greenyellow;
+    }
+    100%{
+        color: white;
+    }
+}
+#CV{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid greenyellow;
+    padding: o.5em;
+    margin: 1em;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+}
+#CV:hover{
+    background-color: rgb(12, 212, 247);
+    color: black;
+}
